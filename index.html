@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ï»¿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,8 +7,8 @@
     <title>Hello github pages!</title>
 </head>
 <body>
-    <h1>‰‚ß‚Ä‚Ìgithub pages</h1>
-    <p>JavaScript‚ğ“®‚©‚»‚¤</p>
+    <h1>åˆã‚ã¦ã®github pages</h1>
+    <p>JavaScriptã‚’å‹•ã‹ãã†</p>
     <form>
         <input type="number" id="a" value = 1></input>
         +
@@ -20,27 +20,27 @@
     </form>
 </body>
 <script>
-    /*Goƒ{ƒ^ƒ“‚ğƒNƒŠƒbƒN‚µ‚½‚Æ‚«‚ÌƒCƒxƒ“ƒgƒnƒ“ƒhƒ‰*/
+    /*Goãƒœã‚¿ãƒ³ã‚’ã‚¯ãƒªãƒƒã‚¯ã—ãŸã¨ãã®ã‚¤ãƒ™ãƒ³ãƒˆãƒãƒ³ãƒ‰ãƒ©*/
     document.getElementById("go").addEventListener("click",function(){
-        var a = parseInt(document.getElementById("a").value,10);//¶‚ÌƒeƒLƒXƒgƒ{ƒbƒNƒX
-        var b = parseInt(document.getElementById("b").value,10);//’†‰›‚ÌƒeƒLƒXƒgƒ{ƒbƒNƒX
-        var c = parseInt(document.getElementById("c").value,10);//‰E‚ÌƒeƒLƒXƒgƒ{ƒbƒNƒX
+        var a = parseInt(document.getElementById("a").value,10);//å·¦ã®ãƒ†ã‚­ã‚¹ãƒˆãƒœãƒƒã‚¯ã‚¹
+        var b = parseInt(document.getElementById("b").value,10);//ä¸­å¤®ã®ãƒ†ã‚­ã‚¹ãƒˆãƒœãƒƒã‚¯ã‚¹
+        var c = parseInt(document.getElementById("c").value,10);//å³ã®ãƒ†ã‚­ã‚¹ãƒˆãƒœãƒƒã‚¯ã‚¹
         
-        //a+b=c‚¾‚Á‚½‚ç"ã‚Ì®‚Í³‚µ‚¢‚Å‚·"‚Æo—ÍCa+b‚c‚¾‚Á‚½‚ç"ã‚Ì®‚Í³‚µ‚­‚ ‚è‚Ü‚¹‚ñI"‚Æo—Í
-        equal(a+b,c)? outputString("ã‚Ì®‚Í³‚µ‚¢‚Å‚·I"):outputString("ã‚Ì®‚Í³‚µ‚­‚ ‚è‚Ü‚¹‚ñI");
+        //a+b=cã ã£ãŸã‚‰"ä¸Šã®å¼ã¯æ­£ã—ã„ã§ã™"ã¨å‡ºåŠ›ï¼Œa+bâ‰ cã ã£ãŸã‚‰"ä¸Šã®å¼ã¯æ­£ã—ãã‚ã‚Šã¾ã›ã‚“ï¼"ã¨å‡ºåŠ›
+        equal(a+b,c)? outputString("ä¸Šã®å¼ã¯æ­£ã—ã„ã§ã™ï¼"):outputString("ä¸Šã®å¼ã¯æ­£ã—ãã‚ã‚Šã¾ã›ã‚“ï¼");
     },false);
 
-    /*“ñ‚Â‚Ì”’l‚ğ”äŠr‚µ‚Ä“¯ˆê‚¾‚Á‚½‚çtrueC“¯ˆê‚Å‚È‚¯‚ê‚Îfalse‚ğ•Ô‚·ŠÖ”*/
+    /*äºŒã¤ã®æ•°å€¤ã‚’æ¯”è¼ƒã—ã¦åŒä¸€ã ã£ãŸã‚‰trueï¼ŒåŒä¸€ã§ãªã‘ã‚Œã°falseã‚’è¿”ã™é–¢æ•°*/
     function equal(a,b){
         var isEqual = false;
         if(a = b){
-            //a=b‚¾‚Á‚½‚çtrue‚É‚·‚é
+            //a=bã ã£ãŸã‚‰trueã«ã™ã‚‹
             isEqual = true;
         }
         return isEqual;
     }
 
-    /*•¶š—ñ‚ğ•\¦‚·‚éŠÖ”*/
+    /*æ–‡å­—åˆ—ã‚’è¡¨ç¤ºã™ã‚‹é–¢æ•°*/
     function outputString(text){
         document.getElementById("output").innerHTML = text;
     }
